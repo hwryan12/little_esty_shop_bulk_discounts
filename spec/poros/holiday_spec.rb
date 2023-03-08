@@ -1,3 +1,6 @@
+require 'rails_helper'
+require './app/poros/holiday'
+
 RSpec.describe Holiday do
   describe "#initialize" do
     let(:holiday_data) { { name: "Christmas", date: "2022-12-25" } }
